@@ -20,6 +20,14 @@ h3{
 }
 */
 
+.row {
+    margin-top: 10px;
+}
+
+.row:first-child, .row.row-dense {
+    margin-top: 0;
+}
+
 .container {
     background-color: #e9eaed;
     padding-top: 25px;
@@ -36,7 +44,7 @@ a.unstyled, a.unstyled:hover, a.unstyled:focus {
 }
 
 ul li:before{
-	content:"─";
+	content:"-";
 	position:relative;
 	margin-left: -10px; /* optional, for multiline li element */
 	left: -5px;
@@ -50,4 +58,8 @@ ul {
   background-image: url(/images/acapulco/cuadro.png);
   background-repeat: no-repeat;
 	background-size: 100% 100%;
+}
+
+.cuadro-text {
+  padding: 5% 15%;
 }
