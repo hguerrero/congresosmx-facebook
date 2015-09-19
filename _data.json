@@ -1,0 +1,17 @@
+{
+  "index" : {
+    "carousel" : {
+      "values" : [
+      {
+        "a" : "acapulco", "url" : "/images/banner_acapulco.jpg", "alt" : "Acapulco"
+      },
+      {
+        "a" : "diplomado", "url" : "/images/banner_diplomado.jpg", "alt" : "Diplomado"
+      },
+      {
+        "a" : "tailiandia", "url" : "/images/banner_tailandia.jpg", "alt" : "Tailandia"
+      }
+    ]
+   }
+  }
+}

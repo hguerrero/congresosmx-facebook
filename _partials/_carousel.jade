@@ -1,0 +1,22 @@
+.row
+  .col-xs-12
+    #myCarousel(class='carousel slide' data-ride='carousel')
+      ol(class="carousel-indicators")
+        each val, index in values
+          li(data-target="#myCarousel" data-slide-to=index class=index == 0 ? 'active' : '')
+      div(class="carousel-inner" data-role="listbox")
+        each val, index in values
+          div(class=index == 0 ? 'item active' : 'item')
+            if val.a
+              a(href=val.a)
+                img(src=val.url alt=val.alt class="img-responsive")
+            else
+              img(src=val.url alt=val.alt class="img-responsive")            
+      a(class="left carousel-control" href="#myCarousel" data-role="button" data-slide="prev")
+        span(class="glyphicon glyphicon-chevron-left" aria-hidden="true")
+        //img(src="/images/acapulco/flechaizq.png" class="img-responsive glyphicon-chevron-left" aria-hidden="true")
+        span(class="sr-only") Previous
+      a(class="right carousel-control" href="#myCarousel" data-role="button" data-slide="next")
+        span(class="glyphicon glyphicon-chevron-right" aria-hidden="true")
+        //img(src="/images/acapulco/flechader.png" class="img-responsive glyphicon-chevron-right" aria-hidden="true")
+        span(class="sr-only") Next

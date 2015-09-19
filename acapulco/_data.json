@@ -1,0 +1,23 @@
+{
+  "hotel" : {
+    "carousel" : {
+      "values" : [
+      {
+        "url" : "/images/acapulco/crowne-plaza-acapulco-2.jpg", "alt" : "Crown Plaza Acapulco"
+      },
+      {
+        "url" : "/images/acapulco/crowne-plaza-acapulco-1.jpg", "alt" : "Crown Plaza Acapulco"
+      },
+      {
+        "url" : "/images/acapulco/crowne-plaza-acapulco-4.jpg", "alt" : "Crown Plaza Acapulco"
+      },
+      {
+        "url" : "/images/acapulco/crowne-plaza-acapulco-3.jpg", "alt" : "Crown Plaza Acapulco"
+      },
+      {
+        "url" : "/images/acapulco/crowne-plaza-acapulco-5.jpg", "alt" : "Crown Plaza Acapulco"
+      }
+    ]
+   }
+ }
+}

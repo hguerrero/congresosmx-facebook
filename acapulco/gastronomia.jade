@@ -1,13 +1,13 @@
-include _carousel.jade
+!= partial("../_partials/_carousel.jade", public.acapulco._data.hotel.carousel)
 include _hotel.jade
 
 .row.linea
 
 .row.row-dense
-  div(style="padding-bottom: 20px;").col-xs-6.signup-form
+  div(style="padding-bottom: 20px;").col-xs-5.signup-form
     .text-left
       != partial("_signup.ejs")
-  .col-xs-6
+  .col-xs-7
     .text-left
       != partial("_itinerario_gastronomia.md")
 .row
