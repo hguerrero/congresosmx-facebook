@@ -3,7 +3,7 @@
     "carousel" : {
       "values" : [
       {
-        "url" : "/images/banner_tailandia.jpg", "alt" : "Tailandia"
+        "url" : "/images/tailandia/tailandia.jpg", "alt" : "Tailandia"
       },
       {
         "url" : "/images/tailandia/camboya.jpg", "alt" : "Camboya"
