@@ -1,0 +1,17 @@
+{
+  "index" : {
+    "carousel" : {
+      "values" : [
+      {
+        "url" : "/images/banner_tailandia.jpg", "alt" : "Tailandia"
+      },
+      {
+        "url" : "/images/tailandia/camboya.jpg", "alt" : "Camboya"
+      },
+      {
+        "url" : "/images/tailandia/bangkok.jpg", "alt" : "Bangkok"
+      }
+    ]
+   }
+ }
+}
