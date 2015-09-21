@@ -6,7 +6,7 @@ include _hotel.jade
 .row.row-dense
   div(style="padding-bottom: 20px;").col-xs-5.signup-form
     .text-left
-      != partial("_signup.ejs")
+      != partial("_signup.ejs", { event : "Acapulco Psicologia" })
   .col-xs-7
     .text-left
       != partial("_itinerario_psicologia.md")
