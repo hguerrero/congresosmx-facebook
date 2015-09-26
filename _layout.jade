@@ -8,9 +8,10 @@ html(lang='en')
   body
     != partial("/_partials/_facebook", { "appId" : "509270909247919" })
     .container
-      .row
-        .col-xs-12
-          div(data-share="true", data-with="450", data-show-faces="true").fb-like
+      //-
+        .row
+          .col-xs-12
+            div(data-share="true", data-with="450", data-show-faces="true").fb-like
       != yield
     script(src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js")
     script(src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js")
