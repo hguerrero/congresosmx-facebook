@@ -6,6 +6,7 @@ html(lang='en')
     link(rel="stylesheet" href="/main.css")
     link(rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css")
   body
+    != partial("/_partials/_facebook", { "appId" : "509270909247919" })
     .container
       != yield
     script(src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js")
